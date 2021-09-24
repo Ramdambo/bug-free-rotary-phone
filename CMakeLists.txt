@@ -1,18 +1,10 @@
 # Projects Settings
 cmake_minimum_required (VERSION 3.1)
-project (opengl-skeleton)
+project (opengl-learning)
 
 # The main executable
 add_executable(main
-  src/Application.cpp
-  src/Application.cpp
-  src/MyApplication.cpp
-  src/MyApplication.cpp
-  src/glError.hpp
-  src/glError.cpp
   src/main.cpp
-  src/Shader.hpp
-  src/Shader.cpp
 )
 set_property(TARGET main PROPERTY CXX_STANDARD 11)
 target_compile_options(main PRIVATE -Wall)
